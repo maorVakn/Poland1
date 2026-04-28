@@ -1,0 +1,38 @@
+[
+  {
+    "id": "warsaw-old-town",
+    "title": "ורשה - העיר העתיקה",
+    "coordinates": [52.2497, 21.0122],
+    "description": "מקום לדוגמה. כאן תכניס תיאור קצר על האתר, החשיבות שלו במסע, ומה תרצה שהתלמידים יקראו בזמן הגלילה.",
+    "images": [
+      "https://example.com/images/warsaw-1.jpg",
+      "https://example.com/images/warsaw-2.jpg",
+      "https://example.com/images/warsaw-3.jpg",
+      "https://example.com/images/warsaw-4.jpg"
+    ]
+  },
+  {
+    "id": "krakow-center",
+    "title": "קרקוב - מרכז העיר",
+    "coordinates": [50.0619, 19.9368],
+    "description": "עוד דוגמה. אפשר לשים כאן תיאור מעט יותר ארוך, עם הקשר היסטורי, מה רואים במקום ומה כדאי לשים לב אליו.",
+    "images": [
+      "https://example.com/images/krakow-1.jpg",
+      "https://example.com/images/krakow-2.jpg",
+      "https://example.com/images/krakow-3.jpg",
+      "https://example.com/images/krakow-4.jpg"
+    ]
+  },
+  {
+    "id": "birkenau",
+    "title": "בירקנאו",
+    "coordinates": [50.0359, 19.1783],
+    "description": "כרטיס לדוגמה נוסף. הקובץ לא מציג את הכתובת למשתמש, רק את השם, התיאור והגלריה הקטנה.",
+    "images": [
+      "https://example.com/images/birkenau-1.jpg",
+      "https://example.com/images/birkenau-2.jpg",
+      "https://example.com/images/birkenau-3.jpg",
+      "https://example.com/images/birkenau-4.jpg"
+    ]
+  }
+]
