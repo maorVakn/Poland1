@@ -51,6 +51,9 @@
       גלריה 3:
       src="assets/warsaw-old-town.jpg"
 
+      תמונת צוות רחבה:
+      src="https://example.com/team-photo.jpg"
+
       דוגמה לקישור חיצוני:
       src="https://example.com/image.jpg"
 
@@ -70,7 +73,7 @@
           <div class="topbar-links">
             <a href="#map">מפה</a>
             <a href="#video">וידאו</a>
-            <a href="#prepare">הכנה</a>
+            <a href="#team">צוות</a>
           </div>
         </nav>
 
@@ -101,65 +104,12 @@
 
           <div class="hero-actions">
             <a class="button button-primary" href="#map">למפה של המסע</a>
-            <a class="button button-secondary" href="#prepare">מה להביא</a>
+            <a class="button button-secondary" href="#team">צוות המשלחת</a>
           </div>
         </div>
       </header>
 
       <main>
-        <section class="section intro-grid">
-          <article class="info-card accent">
-            <p class="card-label">לעריכה מהירה</p>
-            <h2>אזור פתיחה למסר שלך</h2>
-            <p>
-              כאן אפשר להכניס טקסט אישי על המשלחת, מטרות המסע, שמות המלווים, תאריכים,
-              או כל פתיח שתרצה להחליף אחר כך.
-            </p>
-          </article>
-
-          <article class="info-card">
-            <p class="card-label">מה הוספתי</p>
-            <h2>מבנה שימושי למשלחת</h2>
-            <p>
-              עמוד הבית בנוי כך שיהיה קל לגלול, להבין מהר איפה כל דבר נמצא, ולהגיע
-              למפה, לוידאו ולהכנה בלי לחפש.
-            </p>
-          </article>
-        </section>
-
-        <section class="section timeline-section">
-          <div class="section-heading">
-            <p class="section-kicker">מהלך המסע</p>
-            <h2>תחנות מרכזיות</h2>
-          </div>
-
-          <div class="timeline">
-            <article class="timeline-item">
-              <span class="timeline-index">01</span>
-              <div>
-                <h3>יציאה והתכנסות</h3>
-                <p>מקום מצוין להכניס שעת מפגש, שדה תעופה, מסמכים אחרונים ודגשים ליום הראשון.</p>
-              </div>
-            </article>
-
-            <article class="timeline-item">
-              <span class="timeline-index">02</span>
-              <div>
-                <h3>ערים ואתרי ביקור</h3>
-                <p>אפשר לעדכן כאן את ורשה, קרקוב, אושוויץ, מיידנק או כל מסלול אחר שתבחר.</p>
-              </div>
-            </article>
-
-            <article class="timeline-item">
-              <span class="timeline-index">03</span>
-              <div>
-                <h3>עיבוד, שיח וסיכום</h3>
-                <p>מומלץ להשאיר מקום גם לרגעי עיבוד, טקסים, שיחות צוות וזמני סיכום בסוף כל יום.</p>
-              </div>
-            </article>
-          </div>
-        </section>
-
         <section class="section media-section" id="video">
           <div class="section-heading">
             <p class="section-kicker">וידאו</p>
@@ -175,10 +125,6 @@
                 >
               </video>
             </div>
-            <p class="panel-note">
-              הווידאו כבר יושב במקום נכון למובייל. אם תרצה, אפשר אחר כך להחליף רק את
-              הקישור בלי לגעת בעיצוב.
-            </p>
           </div>
         </section>
 
@@ -188,89 +134,41 @@
             <h2>מפת המסע</h2>
           </div>
 
-          <div class="map-copy">
-            <p>
-              כאן יושבת מפה עצמאית של המסע. כל נקודה נמשכת מתוך קובץ JSON, כך שאפשר
-              להוסיף מיקום, תיאור ותמונות בקלות בלי לגעת בעיצוב.
-            </p>
-          </div>
-
           <div class="map-layout">
             <div class="map-stage">
               <div id="expedition-map" class="custom-map" aria-label="מפת המסע"></div>
             </div>
 
             <div class="location-panel">
-              <div class="location-panel-copy">
-                <p class="card-label">קובץ המיקומים</p>
-                <h3>הנתונים נטענים מתוך `locations.json`</h3>
-                <p>
-                  לחיצה על נקודה במפה תוביל ישר לכרטיס המתאים. לחיצה על כרטיס
-                  תמרכז את המפה על אותו מקום. התמונות נטענות מקישורים שתשים בתוך
-                  <code>locations.json</code>.
-                </p>
-              </div>
-
               <div id="location-list" class="location-list"></div>
             </div>
           </div>
         </section>
 
-        <section class="section prepare-section" id="prepare">
+        <section class="section team-section" id="team">
           <div class="section-heading">
-            <p class="section-kicker">לפני היציאה</p>
-            <h2>מה חשוב להכין</h2>
+            <p class="section-kicker">צוות המשלחת</p>
+            <h2>הצוות שמוביל את המסע</h2>
           </div>
 
-          <div class="prepare-grid">
-            <article class="check-card">
-              <h3>מסמכים</h3>
-              <ul>
-                <li>דרכון בתוקף</li>
-                <li>אישור הורים או מסמכי משלחת לפי הצורך</li>
-                <li>ביטוח ופרטי קשר חשובים</li>
-              </ul>
-            </article>
-
-            <article class="check-card">
-              <h3>ציוד אישי</h3>
-              <ul>
-                <li>ביגוד חם ונוח להליכה</li>
-                <li>מטען, אוזניות וסוללה ניידת</li>
-                <li>בקבוק מים קטן ותיק יום</li>
-              </ul>
-            </article>
-
-            <article class="check-card">
-              <h3>היערכות למסע</h3>
-              <ul>
-                <li>קריאה קצרה על האתרים</li>
-                <li>פתיחות לשיח וללמידה</li>
-                <li>כבוד לזמנים, לטקסים ולקבוצה</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="section gallery-section">
-          <div class="section-heading">
-            <p class="section-kicker">השראה למסע</p>
-            <h2>מבט מהמקומות שנפגוש</h2>
+          <div class="team-photo-card">
+            <img
+              src="https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F4805eac8-9b93-4ae7-a1ab-3041ca28f1e7/watermark:F/width:738?csig=AAAAAAAAAAAAAAAAAAAAAKqKzXv0yly_4q6zb1PuymBoHjeznfDp70j-Y5SX_wPf&exp=1777400623&osig=AAAAAAAAAAAAAAAAAAAAAPZQhgC1dymccosx0M2zhlxtYElWKkhTXMPnXMIMtk4X&signer=media-rpc&x-canva-quality=screen_3x"
+              alt="צוות המשלחת"
+              class="team-photo"
+              loading="lazy"
+              decoding="async"
+            >
           </div>
 
-          <div class="gallery">
-            <figure class="gallery-card large">
-              <img src="assets/krakow-skyline.jpg" alt="קו הרקיע של קרקוב" decoding="async">
-              <figcaption>קרקוב</figcaption>
-            </figure>
-            <figure class="gallery-card">
-              <img src="assets/birkenau-gate.jpg" alt="שער בירקנאו" decoding="async">
-              <figcaption>בירקנאו</figcaption>
-            </figure>
-            <figure class="gallery-card">
-              <img src="assets/warsaw-old-town.jpg" alt="העיר העתיקה בוורשה" decoding="async">
-              <figcaption>ורשה</figcaption>
-            </figure>
+          <div class="team-credits">
+            <div class="team-credit">
+              <h3>תודות</h3>
+            </div>
+            <div class="team-credit">
+              <p>אופק שחר, ארגון התמונות</p>
+              <p>מאור וקנין, הכנת האתר</p>
+            </div>
           </div>
         </section>
 
@@ -282,7 +180,9 @@
       </main>
 
       <footer class="footer">
-        <p>נבנה כך שיהיה קל לעדכן, נוח לגלילה, ומוכן להעלאה כאתר קבצים פשוט.</p>
+        <div>
+          <p>האתר נבנה עבור זיכרון המסע לפולין 2026</p>
+        </div>
         <a href="#top">חזרה לראש העמוד</a>
       </footer>
     </div>

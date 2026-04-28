@@ -50,7 +50,7 @@ if (mapElement && locationListElement && window.L) {
 
     const marker = markers.get(id);
     if (marker && options.center !== false) {
-      map.flyTo(marker.getLatLng(), Math.max(map.getZoom(), 6), {
+      map.flyTo(marker.getLatLng(), options.zoom ?? 12, {
         animate: true,
         duration: 0.7
       });
@@ -100,6 +100,10 @@ if (mapElement && locationListElement && window.L) {
       setActiveLocation(place.id, { center: true, scroll: false });
     });
 
+    article.addEventListener("mouseenter", () => {
+      setActiveLocation(place.id, { center: true, scroll: false, zoom: 12 });
+    });
+
     cards.set(place.id, article);
     locationListElement.appendChild(article);
   };
@@ -134,7 +138,11 @@ if (mapElement && locationListElement && window.L) {
         }).addTo(map);
 
         marker.on("click", () => {
-          setActiveLocation(place.id, { center: true, scroll: true });
+          setActiveLocation(place.id, { center: true, scroll: true, zoom: 12 });
+        });
+
+        marker.on("mouseover", () => {
+          setActiveLocation(place.id, { center: true, scroll: false, zoom: 12 });
         });
 
         marker.bindTooltip(place.title, {
@@ -167,7 +175,7 @@ if (mapElement && locationListElement && window.L) {
 
           const id = visible.target.getAttribute("data-location-id");
           if (id && id !== activeId) {
-            setActiveLocation(id, { center: true, scroll: false });
+            setActiveLocation(id, { center: true, scroll: false, zoom: 12 });
           }
         },
         {
@@ -180,7 +188,7 @@ if (mapElement && locationListElement && window.L) {
 
       const firstPlace = places.find((place) => markers.has(place.id));
       if (firstPlace) {
-        setActiveLocation(firstPlace.id, { center: true, scroll: false });
+        setActiveLocation(firstPlace.id, { center: true, scroll: false, zoom: 7 });
       }
     })
     .catch(() => {

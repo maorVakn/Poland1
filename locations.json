@@ -1,38 +1,282 @@
 [
   {
-    "id": "warsaw-old-town",
-    "title": "ורשה - העיר העתיקה",
-    "coordinates": [52.2497, 21.0122],
-    "description": "מקום לדוגמה. כאן תכניס תיאור קצר על האתר, החשיבות שלו במסע, ומה תרצה שהתלמידים יקראו בזמן הגלילה.",
+    "id": "ben-gurion-airport",
+    "title": "נתב״ג - נמל התעופה בן גוריון",
+    "coordinates": [32.0114, 34.8867],
+    "description": "נקודת היציאה של המסע לפולין.",
     "images": [
-      "https://example.com/images/warsaw-1.jpg",
-      "https://example.com/images/warsaw-2.jpg",
-      "https://example.com/images/warsaw-3.jpg",
-      "https://example.com/images/warsaw-4.jpg"
+          "https://media.canva.com/v2/image-resize/format:PNG/height:600/quality:100/uri:ifs%3A%2F%2FM%2F7168e70c-420c-47e9-8d3d-819e7ab80033/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAM62OmqVdhWmhmvauKSLthaeqM3YV-3Gyf2QP-JwTTbg&exp=1777397875&osig=AAAAAAAAAAAAAAAAAAAAAMaVcL7CCyWkLRI_yhmiWnZ9Fubu_g1ZqafH2Excu4eN&signer=media-rpc&x-canva-quality=screen",
+          "https://media.canva.com/v2/image-resize/format:PNG/height:533/quality:100/uri:ifs%3A%2F%2FM%2F3f0b41ab-bf3d-4c96-98ab-2ec65b59d330/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAJLFBI5Ke64pJaf5DRXXAirRBl4tAUjbvyKtNhjDlHwQ&exp=1777401042&osig=AAAAAAAAAAAAAAAAAAAAAMalY_LVGmFmjbOUCAEY5RfsrjF7ZvtZH086X_g3LH8E&signer=media-rpc&x-canva-quality=screen",
+          "https://media.canva.com/v2/image-resize/format:PNG/height:600/quality:100/uri:ifs%3A%2F%2FM%2Fd33922c2-9222-418b-9016-a00123147e3c/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAJMo9rPYrjZ8HfHEsiNDGiG2F8biGcg-g9DylYS26FzM&exp=1777400230&osig=AAAAAAAAAAAAAAAAAAAAAGyQsNc_Xfv2cb46AV6laYC2rbkVIYr1bGq0KRC646pq&signer=media-rpc&x-canva-quality=screen",
+          "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2Ff688b3b5-af52-4e35-8062-ce8f02d5eca2/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAAHhm_Al2bKB6hNgpApo0dURls-D6SvPbt2baCSU7eVf7&exp=1777398046&osig=AAAAAAAAAAAAAAAAAAAAANFaMFHLwj2xoMo9bKLwngO3124d_ASKDJrzR3N0iy5G&signer=media-rpc&x-canva-quality=screen"
+        ]
+  },
+  {
+    "id": "nir-galim-holocaust-museum",
+    "title": "ניר גלים - מוזיאון השואה",
+    "coordinates": [31.7206, 34.6884],
+    "description": "מוזיאון הכנה למסע עם עדויות ותיעוד שואה.",
+  "images": [
+      "https://media.canva.com/v2/image-resize/format:PNG/height:450/quality:100/uri:ifs%3A%2F%2FM%2Faa94b7b0-8820-4cb7-b23b-42c86434fc9f/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAHFxV-8Ll_exw66aOcO_6-iNNR7KdDK6nKVPhXeSmlbu&exp=1777399505&osig=AAAAAAAAAAAAAAAAAAAAAFeUg7TFQbCIbU-Kh1Igygpl489GE2pTgbQ1Z51iRIqD&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:450/quality:100/uri:ifs%3A%2F%2FM%2F4eebd832-59e9-45f4-8788-4f6731e7bf87/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAASx9n0clpommLk0vfl5doQpNykMBj8yN9tr--74xI9m&exp=1777399337&osig=AAAAAAAAAAAAAAAAAAAAADJAexKf2Vaf7hH3wyLL2qNxNg0giszMolzSPUZaG3WK&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:450/quality:100/uri:ifs%3A%2F%2FM%2F79b3b728-27f0-4f76-8dcc-f3523ae5885f/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAG4_sluJwhRj9pzxFNv6Hqvt0Tz0zpkXRu-8U61uFV0z&exp=1777398755&osig=AAAAAAAAAAAAAAAAAAAAABbUoa7EgFvAOAnmSXAquitrAdZfCTKExpqEwvdCG6ML&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:533/quality:92/uri:ifs%3A%2F%2FM%2Ffbfcd335-ac75-4964-b11c-67aab4fce48b/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAAzbXdkh2aF0fddTruq6xhr6oRvQ6hHRSH4BIziBayn_&exp=1777399895&osig=AAAAAAAAAAAAAAAAAAAAAIfgvOvrYkkJRuYSMNOCrc1IJVZqywBowH57vILd2HQF&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:450/quality:100/uri:ifs%3A%2F%2FM%2Fc3ca6d9e-a8cf-4754-bf2c-c2c31302c464/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAHgfJ2--xrAhTsvxetbYgQoK9dkRdEgref4o1q_G320A&exp=1777398993&osig=AAAAAAAAAAAAAAAAAAAAAPdkkmVNBSmw-u9TFz8J91a9OdpvFZ99ccHPexIMWc4D&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:450/quality:100/uri:ifs%3A%2F%2FM%2Fdce0487d-28a3-4f24-a644-9dcdac6a147d/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAPkRmcf59PT4Ad2kcuoayNsZP4qCGaVbZvaShAVHRF7o&exp=1777397644&osig=AAAAAAAAAAAAAAAAAAAAAHgSyJrhg4JQlWnzCm8-nGVFfMtuhIgEK2k3_sNJvdCg&signer=media-rpc&x-canva-quality=screen"
+    ]  },
+  {
+    "id": "lodz",
+    "title": "לודז׳",
+    "coordinates": [51.7592, 19.4550],
+    "description": "עיר עם גטו יהודי והיסטוריה מהשואה.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:533/quality:92/uri:ifs%3A%2F%2FM%2Fde79c9ea-093b-4f30-9153-e942cdf87885/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAButhnCuspWN-iDlq7-ltB2m60ig36IL-YiGMK4754rU&exp=1777399605&osig=AAAAAAAAAAAAAAAAAAAAABztB6rpJtUHDg4ATKrK2la73dHCApTQfAUf9uyplfbb&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:533/quality:92/uri:ifs%3A%2F%2FM%2F0f0c4456-4182-44e4-bd91-8313f2474205/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAF3_C6_jKCXJNzqK-7Txvz2qScsV2V0ef9xOfBk5KSw_&exp=1777400048&osig=AAAAAAAAAAAAAAAAAAAAAHr-sircljdOUtSiWsQalu1z1FKDay3Jeu2GSZVdJ8gu&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:ifs%3A%2F%2FM%2F5972768e-0dcb-42fb-b6cd-9d2c2a5d7202/watermark:F/width:533?csig=AAAAAAAAAAAAAAAAAAAAAF3gc3sWM5Cm36uWJq3UXBTRvKGgNGNbwcd3Ec6DN2Wh&exp=1777400158&osig=AAAAAAAAAAAAAAAAAAAAANrT_RnWpvO9MAxWdXSvrlzNeFLdWwhfDNFUurSxrIg1&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:533/quality:92/uri:ifs%3A%2F%2FM%2F266dc4f6-6bc3-497b-b3a1-f96acf4d977d/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAACPfB98DL9WdqXRj_TnLEn3gFiUMxGVpvjgk5sKK3kS4&exp=1777400832&osig=AAAAAAAAAAAAAAAAAAAAAA1qm4l2W2piiw3LOXYk1AVUapHwp3UPXdL-D3AyLUda&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2Ffaedae81-32c6-407b-9758-f1e3cfd5ed36/watermark:F/width:615?csig=AAAAAAAAAAAAAAAAAAAAAID02qj2nbR45GVtIPXQdiqEN5AdY4BW9DaEhP1XDQ1_&exp=1777400365&osig=AAAAAAAAAAAAAAAAAAAAAMMoIcMv-U3pdMyBau4xBK6Xbjq-3QAE2ThM3vWxkk8x&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:600/quality:100/uri:ifs%3A%2F%2FM%2Fc7aec735-f8b4-409d-b91f-225a14dceadc/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAABuh5zKCRCndtgXJ-VGETSCv9EFgLS5sWmYhpBse3bkh&exp=1777399446&osig=AAAAAAAAAAAAAAAAAAAAAFgtNIR4derFjT3As8miQnZvR7EqHRnc7UDzx7D8ouI6&signer=media-rpc&x-canva-quality=screen"
+    ]
+
+  },
+
+  {
+    "id": "okopowa-cemetery",
+    "title": "ביה״ק אוקופובה - ורשה",
+    "coordinates": [52.2440, 20.9700],
+    "description": "בית קברות יהודי מרכזי בוורשה.",
+"images": [
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2Fc6cff160-9185-4ce1-9bcb-2615b2cbc80a/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAAJ8IWPoipvzKxqHrtE9F5xWGJLRNKgBvIcsZYRf0cxGX&exp=1777397626&osig=AAAAAAAAAAAAAAAAAAAAAOPINfmanstZvz2HjkbiKYJm2jRQxyPhl77RLTVtayMD&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2Fcd24096a-1976-4977-a0a7-c273796ca54f/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAAAXvK6ZRUS_mSktsZgWkxnop2iW4rA8_ZW_pTSK8gOFL&exp=1777400181&osig=AAAAAAAAAAAAAAAAAAAAAKzFUqRT_fyFNJiDb1Jp0SDMnfpOuh9Y79zr_5wgm5Bl&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2F4d08b519-c352-4e7f-a92a-5f37f6f97610/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAADOfBl15WMtzrgYoxMba49jWKUXlev3w__FJH51rre7k&exp=1777400118&osig=AAAAAAAAAAAAAAAAAAAAAObA8I950Ntdjx_x4IQEn0ZxyA5kXRC7YJ_AHmjz3EiP&signer=media-rpc&x-canva-quality=screen"
+    ]  },
+  {
+    "id": "warsaw-zoo",
+    "title": "גן החיות ורשה",
+    "coordinates": [52.2547, 21.0285],
+    "description": "גן חיות היסטורי בוורשה.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2F18b98f2a-c6d2-4992-b73f-9899cb2008b3/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAAAwrVcJfBR9so-jXXylJ34IYfJtgdVzaUhC8yOGfFaby&exp=1777399764&osig=AAAAAAAAAAAAAAAAAAAAAOsFc8u1RnBFV-Jvz_Rq7-NepPXMbb7uEe-snFWeH2r7&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:600/quality:100/uri:ifs%3A%2F%2FM%2F5abbb12a-ae40-41d5-868b-5f06008c8837/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAAfHqMY2v7R7x8FRYIejSQSqwAxOi9ufIYh7ZcSlyAWN&exp=1777398524&osig=AAAAAAAAAAAAAAAAAAAAAIRrPqV4-wfUKNjAAEX0f42jdxrmL_ypkvkClpXWPJa3&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2Ffbd5f6ed-3210-450e-8b36-eaf3be57faa8/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAABlEezP2hOqF_e4CXn91h8dRY8UFc2nDuyx4vYIQgCvm&exp=1777398807&osig=AAAAAAAAAAAAAAAAAAAAADzgJxODWb5oPZ2F9-WZuHDLVKSB2oQ7pDzpQapHWNH6&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2Fdd9cd275-3730-4ba4-b702-2d8d3f79c23f/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAAPhvLBdmJ2Hks0mj4TTEIiC7I-pffMBPDJXT9sz-k9oF&exp=1777398473&osig=AAAAAAAAAAAAAAAAAAAAAKIG2aFkWiMgxGj9TGBEhWEvWhAmb95Y6DfcryTbxWfZ&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2Fc2475397-fa8f-4fd9-b1c0-c3af170c9822/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAAOZ2wqbVULu16Lb7fuLwSfcQvQlwjQGkX1W-jo5sfncf&exp=1777400956&osig=AAAAAAAAAAAAAAAAAAAAAESkfLt4J8odlo78RMsGE8N4S0v_bM0FcW7GF0FiRuv4&signer=media-rpc&x-canva-quality=screen"
     ]
   },
   {
-    "id": "krakow-center",
-    "title": "קרקוב - מרכז העיר",
-    "coordinates": [50.0619, 19.9368],
-    "description": "עוד דוגמה. אפשר לשים כאן תיאור מעט יותר ארוך, עם הקשר היסטורי, מה רואים במקום ומה כדאי לשים לב אליו.",
+    "id": "nozyk-synagogue",
+    "title": "בית כנסת נוז’יק - ורשה",
+    "coordinates": [52.2339, 21.0026],
+    "description": "בית הכנסת הפעיל היחיד שנותר בוורשה לפני השואה.",
     "images": [
-      "https://example.com/images/krakow-1.jpg",
-      "https://example.com/images/krakow-2.jpg",
-      "https://example.com/images/krakow-3.jpg",
-      "https://example.com/images/krakow-4.jpg"
+      "https://media.canva.com/v2/image-resize/format:PNG/height:800/quality:100/uri:ifs%3A%2F%2FM%2F0567c51a-ee36-4eb6-91af-81c745d7e1f4/watermark:F/width:600?csig=AAAAAAAAAAAAAAAAAAAAAPNr1OOFw9HPlR5PuHeqToOZNpUbVuT3mqM-k9pqoG5K&exp=1777400828&osig=AAAAAAAAAAAAAAAAAAAAACzMoDjswRKQWTmbHok19HuvP-ncrE0gMpXvYhhwKU_y&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:450/quality:100/uri:ifs%3A%2F%2FM%2F0bdbea31-d7c5-402e-b2da-09f512392eed/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAANMyUHFtLSncHvks3tTv9S3h8U4dTkhSBc04n4Xcn91W&exp=1777398070&osig=AAAAAAAAAAAAAAAAAAAAABUhMe3CrzZzdO7tYiw-y3ie5-3TqK5Gt2fgs16F8q9K&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:ifs%3A%2F%2FM%2F85b00deb-9cd6-4dc2-accf-a04c936aa1b0/watermark:F/width:533?csig=AAAAAAAAAAAAAAAAAAAAAASgOEcKv-XvLdqs_cLjWImu7HtnLhP2DVuB-7zJ0Qq2&exp=1777399472&osig=AAAAAAAAAAAAAAAAAAAAAKeDF921rUyy1WOmrcvryBEs0oQzOYn_xZKw_gBq7N_y&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:800/quality:92/uri:ifs%3A%2F%2FM%2F4accc3f3-e45c-4542-b749-1cbe81a68503/watermark:F/width:533?csig=AAAAAAAAAAAAAAAAAAAAAAfvll8VQnS8vdSb1_kzNPRQr53DV08lEJnTt_6-OpM2&exp=1777397863&osig=AAAAAAAAAAAAAAAAAAAAAMZcLGDD9GV5dDwEqLpHBkQv7tHtkqH1nP4jOMUFmUxW&signer=media-rpc&x-canva-quality=screen"
     ]
   },
   {
-    "id": "birkenau",
-    "title": "בירקנאו",
-    "coordinates": [50.0359, 19.1783],
-    "description": "כרטיס לדוגמה נוסף. הקובץ לא מציג את הכתובת למשתמש, רק את השם, התיאור והגלריה הקטנה.",
+    "id": "korczak-orphanage",
+    "title": "בית קורצ’אק - ורשה",
+    "coordinates": [52.2490, 20.9847],
+    "description": "מקום פעילותו של יאנוש קורצ’אק עם יתומים יהודים.",
     "images": [
-      "https://example.com/images/birkenau-1.jpg",
-      "https://example.com/images/birkenau-2.jpg",
-      "https://example.com/images/birkenau-3.jpg",
-      "https://example.com/images/birkenau-4.jpg"
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fd5ab4b8f-7a84-4424-a81c-37d7e6558064/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAEcUREXWGHQGuWEDjBB0dXu39ln_bwdWoYDnpYyFOVec&exp=1777397983&osig=AAAAAAAAAAAAAAAAAAAAAP_D20Pd_KXOFwKm3N4L5kJdCgsATjxmP7c6pdGNOfEd&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2Fb782fe62-59fe-4f84-9849-05a09e310567/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAFBR_vt5yNm9rgj_sc0Rf8dJ39MWzk4A0Sq9PHAwoiqE&exp=1777399849&osig=AAAAAAAAAAAAAAAAAAAAABmozOqQrpqU-AtnLw-TRMihxUxvJw76rA0jBqR0loMi&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F198f8da0-0f51-4ab5-8104-fb509225cf75/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAEDen9z6iLY_MkwMZDEgKpAOSGCA48TV4Pdm2xHGrY2o&exp=1777399272&osig=AAAAAAAAAAAAAAAAAAAAAOd21GGduXKDjtgVEV_TJND5HP4GcGHWSqTlP4XwIeMN&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2Fc9b4ccc7-ee0b-42fa-8477-80171f7190a3/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAABxbwcjU5mZyJIibEK1Z0r720WqJxLuw-ZQQG38HuIBu&exp=1777398025&osig=AAAAAAAAAAAAAAAAAAAAAO7MGUox-mD8BJLGof5wxPCECvIxuD3VsIqx93hRozji&signer=media-rpc&x-canva-quality=screen_3x"
+    ]
+  },
+  {
+    "id": "rapaport-monument",
+    "title": "אנדרטת רפפורט - ורשה",
+    "coordinates": [52.2497, 21.0065],
+    "description": "אנדרטה לזכר גיבורי גטו ורשה.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:533/quality:92/uri:ifs%3A%2F%2FM%2F22098307-877f-4bc4-9939-566d33921463/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAAECRuQQLDq-7LqnBWQyfPNZPxJyrWW2tB5jJOk-9rZ0&exp=1777400141&osig=AAAAAAAAAAAAAAAAAAAAAAWaxymi3nnDGn9RxJHcaTEMsB-XvNzlCRrFAdOkImNq&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fd92f4208-b5c3-477e-a862-7c9a9851897e/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAIZhyhAnbblNkktFWjl9J5jim4gdXjC6UTvszLbYI2xu&exp=1777400512&osig=AAAAAAAAAAAAAAAAAAAAAL-7rb_sPtOFcnFgY09ai6z-yLU9aa5okmeU-OuVlvRC&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2Fbec0e3e1-5211-40c4-87c4-9eb54d5b2edc/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAOIVrNgTMDVgXB5K2UHtOm0ONsgbELZoxoiS7s0CPGtI&exp=1777399734&osig=AAAAAAAAAAAAAAAAAAAAABL66jsrUjGSO1UGejp1iGPIDZL51LnNwGReok5w2Al7&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F964672ef-d84e-44db-bfdc-7980b7af2f5e/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAACi_Z143xBEzBNKbtARjETisFZ3NpgQRulXhq8PMI7z5&exp=1777398936&osig=AAAAAAAAAAAAAAAAAAAAAB9FrEsdOVDb_CQzLur4gcz8iiDDu9Jy_lFjCHyzB-Rw&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1200/quality:92/uri:ifs%3A%2F%2FM%2F3557bd81-bf5b-44f3-8438-48623c8b1d78/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAP4JNMhgFavpP01ilD5NXkNQmd1O9VfHCttVXaZFkdIJ&exp=1777398774&osig=AAAAAAAAAAAAAAAAAAAAABbrzoM8YIVFP46Oy7QbGgqinmBxnRqAWi926vvfvrM6&signer=media-rpc&x-canva-quality=screen_3x"
+    ]
+  },
+  {
+    "id": "miła-18",
+    "title": "רחוב מילה 18 - ורשה",
+    "coordinates": [52.2512, 20.9970],
+    "description": "בונקר הנהגת מרד גטו ורשה.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:450/quality:92/uri:ifs%3A%2F%2FM%2F87663f28-bab0-482f-bcf4-7ba7a5be4dd1/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAI8cKmW7clkDeAIsTRRiEcle5sK2zFhDNtK-nGAye2os&exp=1777398866&osig=AAAAAAAAAAAAAAAAAAAAADwiVtgzBLuVXRYaQKxNAdMTCX1tj15QTwqRkzPrsbwk&signer=media-rpc&x-canva-quality=screen"
+    ]
+  },
+  {
+    "id": "folklore-evening-warsaw",
+    "title": "ערב פולקלור - ורשה",
+    "coordinates": [52.2297, 21.0122],
+    "description": "אירוע תרבותי של פולקלור פולני.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F2a086da2-2925-4264-b938-3bdd9316b26d/watermark:F/width:900?csig=AAAAAAAAAAAAAAAAAAAAALhi3bicgTJN92ltrqKyDaqT0sx39Sj2HS_Hkqn3DmTZ&exp=1777399860&osig=AAAAAAAAAAAAAAAAAAAAAEjiwjqPk759fESUEab7Fs6SFGCpVr1FzCTvB1AtsxCi&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2F73478d50-3e2b-4981-8e23-8fb89f121d40/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAANcggB9jGSnwF53vXIIHB5iWvALm45qC0x6gaNW-n3oP&exp=1777400977&osig=AAAAAAAAAAAAAAAAAAAAAIszCsGTbsZS4UEhKCMU4JGmtu6Om7CKZxSXEBmbMkJU&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:900/quality:92/uri:ifs%3A%2F%2FM%2F935cc3fc-ac53-4f9f-9a39-0abc68b97ed5/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAOaniqqmVYFDvdZ0j6uu0tGNdPGH1pFoS73CcuQzkgSp&exp=1777399964&osig=AAAAAAAAAAAAAAAAAAAAAGEpo8TL0ryuMXXLzNkOTtnoUn5HzNoGUL3-6er5y3rq&signer=media-rpc&x-canva-quality=screen_2x"
+    ]
+  },
+
+  {
+    "id": "tykocin-square",
+    "title": "כיכר טיקוצ׳ין",
+    "coordinates": [53.2058, 22.7746],
+    "description": "כיכר מרכזית בעיירה היסטורית.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Ffefddd6e-4345-469b-a3b7-1fdc9459b041/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAHwJMaEP6gFaS1gPoa1OIpYgqiNnbtumA8tEDHQogvvR&exp=1777400487&osig=AAAAAAAAAAAAAAAAAAAAAI9gJBin8LZrq-aHOWFGxxIqlCIrmAVFxQWQbfrjiPXN&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:450/quality:92/uri:ifs%3A%2F%2FM%2F6d0abff4-03ce-4a9f-9b12-31f1070455a7/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAANYY6hA7bvmNOd5Dk_PGK3I3yUEDXfgy7fXugG6Kpvey&exp=1777400090&osig=AAAAAAAAAAAAAAAAAAAAAGslJ4lAdTmZZHQRvwzKi6A8dKuPP8fkywBxNt3H8-x2&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:450/quality:92/uri:ifs%3A%2F%2FM%2Fb0dddb91-745b-403d-ac41-6b5491732177/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAN_TVQ9fiWhOhR-5_dzPiBkFBmFiFeGgq_Rdurhs4mvW&exp=1777397684&osig=AAAAAAAAAAAAAAAAAAAAAEmgAKtjii-JI9eRBnnKezduJdoSHeyssWfOqLSLs92y&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1577/quality:100/uri:ifs%3A%2F%2FM%2F3dc56a43-51c3-4da9-9736-693080184ca9/watermark:F/width:1206?csig=AAAAAAAAAAAAAAAAAAAAACHmw7zbCqPgy2NuAk9mE8Tp_zY076JHFyEz7YlsT8Oy&exp=1777398283&osig=AAAAAAAAAAAAAAAAAAAAAEl-F-rrX6HVnxvf_M0e2J7BGCFmhGdFIwi-ZQFEoEfG&signer=media-rpc&x-canva-quality=screen_3x"
+    ]
+  },
+  {
+    "id": "tykocin-synagogue",
+    "title": "בית הכנסת טיקוצ׳ין",
+    "coordinates": [53.2054, 22.7738],
+    "description": "בית כנסת עתיק ומשומר.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F507518e6-0550-4237-b3ed-8ffeca86725b/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAOaULqADIt5NdBIzWWvSWPvaahZw8Mp9EXS852KAWmp-&exp=1777400074&osig=AAAAAAAAAAAAAAAAAAAAAK2-Ci0Hy52z2SeRlFFwKvMvUJoxQu4paswdXsqEncRS&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fcf66105b-59d8-48fb-951f-66bc0527efad/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAF4pas6FvaTA6QAj4qXXyEXJZJKGo8QEI1PTw4RKLKup&exp=1777400817&osig=AAAAAAAAAAAAAAAAAAAAAF1nTCo9nDlNSF8Wx8x_CXBwxbbNZCg7lQUYKQ0n52Dq&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F6348fbcc-28a5-469a-8110-2ff2e43b957d/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAJP0yao1HHJbk_JWP2LShhIwK89a6P-QOoafn_BUITqk&exp=1777400184&osig=AAAAAAAAAAAAAAAAAAAAAGwfHkObgq1jVmmzxXsOIPkSHAbZXRdmX28JsTPESJpZ&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:533/quality:92/uri:ifs%3A%2F%2FM%2F5ac005aa-6b64-4452-9754-9f04d9c98753/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAABKUE2lEtwkTKkEEPEZxOU7N9AgMLBvT45ir1nPFcbbJ&exp=1777397920&osig=AAAAAAAAAAAAAAAAAAAAAJ0IYB6e12CLobindIOsdz_vW21RAx-XXy3J4e74uMMC&signer=media-rpc&x-canva-quality=screen"
+    ]
+  },
+  {
+    "id": "lopuchowo-forest",
+    "title": "יער לופוחובה",
+    "coordinates": [53.2200, 22.8000],
+    "description": "אתר רצח המוני מתקופת השואה.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F66a957e1-4fd7-45a9-9993-5ad800f8c8f6/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAMZ-UdbGO9wgP-GxAxI5daCMkC_bp7Gp-IKWmlmz098J&exp=1777397841&osig=AAAAAAAAAAAAAAAAAAAAAAKEzUxhDurugKM7MZgo2-f9qeF0hjxuY_TieaKdvoTm&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fb1a0a0da-1eb0-40dc-b944-7fe2f617abc8/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAANLJhHPmhjQqJwW_FfVdYDA_r9HTBM41sOA-8zYVPuYC&exp=1777397503&osig=AAAAAAAAAAAAAAAAAAAAAISCzQsN1Ok6_EkVZ9IOyGquT_0jbOR2fuvusMbRtS55&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fa72d82fe-0ec6-46a7-86f4-f3befc6cdfc5/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAHlDXoLY33lZS2FaroTjR072sJLfp-3mn9BEsfsGZNg4&exp=1777398950&osig=AAAAAAAAAAAAAAAAAAAAAL35Jm52AWUErJxa7pNMAj8iNKR1zP9yYBir2cK9kv4m&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F8b445293-9609-4468-a851-919710565651/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAALzlTdcstFjeLKQM1lNcNTW-5aYrSGYl5kyxKwIBElik&exp=1777399084&osig=AAAAAAAAAAAAAAAAAAAAACCFbZ-mvGXciHj8dBarGcTV5Z-ikLQpLgTo_C1LyPso&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F7a9c02a9-3c59-4a35-8afd-ea4aefef2763/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAJ9camAv2BmxddWFv9a5NZPfoyNcz1LuEfER_zY7DGbk&exp=1777398069&osig=AAAAAAAAAAAAAAAAAAAAAIyuosuWc6BUyfEpowofXlMsA74GN64dnNjfj9idZcIx&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F679492d3-ffe5-4baa-9801-7f9fb8adbfa3/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAAyN7gOOWymDOi4Dp3xEiq3yzi7OqginbgBywys_K2gF&exp=1777400316&osig=AAAAAAAAAAAAAAAAAAAAAIsaIQygqzrA_8t4tXFFyGvW2h6OBr3WEgI2atfFiovF&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F6bee43b1-4a69-4cf0-9a52-210dbe7729d8/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAALbgSCz-J6AGsZ0_TF5PzGA3uW_v-4kqs7PMHheLHxXp&exp=1777400609&osig=AAAAAAAAAAAAAAAAAAAAAG4LBtqIqEpiyJrg4tMPZe7UPO3tC8m6XiROrLcnaNRN&signer=media-rpc&x-canva-quality=screen_3x"
+    ]
+  },
+  {
+    "id": "treblinka",
+    "title": "טרבלינקה",
+    "coordinates": [52.6583, 22.0250],
+    "description": "מחנה השמדה נאצי.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F542e077d-7fec-4bac-8f3c-75f3b830e9ae/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAADRQAlEPvmEKWOvCX-KMgcfOeyMKkL--8KwQjia0Gn9b&exp=1777399897&osig=AAAAAAAAAAAAAAAAAAAAAO8Ah--lnKrjGBKvTgC3sEQlL6D0xqGPyDqCYp6MnhVI&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F0e65e20d-744c-4509-a297-ff4da67fcc95/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAACeraq69eOVpw1oFUP6mKV3Wc-V8dddITnALvmm9R3y2&exp=1777400965&osig=AAAAAAAAAAAAAAAAAAAAADW_jGDqH5-XJkxwW1ZxvnxdRueMFy9bjiqCnXE7uipJ&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F82955b8a-45d5-416b-882c-82fa2120e7cf/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAKXpN20HqQRRIRVkHxF_LeKBZmv5pYc8MGvSjP_KM5YC&exp=1777397938&osig=AAAAAAAAAAAAAAAAAAAAAHZszOSPIWS7WDVmwDhTkLFDgDmMq1MbXcTkmqKrq9lV&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F68d3b57c-77f7-4622-9a4a-dda25697d33b/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAIjY5ywljI8FVHl9W3O-T6eqN7XTS-qm8DSA2nOB0SwK&exp=1777398709&osig=AAAAAAAAAAAAAAAAAAAAAGrdKcRaLUA49fghy6UT8tsqsaQPIWVPZj_bUCJpD9QK&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:600/quality:92/uri:ifs%3A%2F%2FM%2F88c58d54-5555-437a-a6cf-40ffe6ee1147/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAOqhfGitjaTq6Nmj_p-VQIbawwLGaMhl47RWMFQMEW_7&exp=1777400320&osig=AAAAAAAAAAAAAAAAAAAAAK8RWL4uNjL9mIzyqHGvqvme1mD6vsiK_4zaPQ37dncH&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:900/quality:92/uri:ifs%3A%2F%2FM%2Fe4236784-8338-46e3-a5af-c848b8e5f16d/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAHqO2f6688alUXJkZt4gzhlfkLT52-tkXObWmbXX1wNY&exp=1777400303&osig=AAAAAAAAAAAAAAAAAAAAAJsXup9EKFnko9oiuxJmeCUFAM36kX1M8KAeNn43jXyh&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F3707da0c-cdc0-4c6e-8d63-4be6d209e54f/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAKCaBHyDnUBGWqlNwKILIx8BtBrBDqzBmfYYXzsDeFqE&exp=1777398983&osig=AAAAAAAAAAAAAAAAAAAAAMGRHO9jn4A3ocedxi6yU6QedV0DoQNgKldZSibHSoqC&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F7f23ea92-f8fc-4d95-a275-e4382750308e/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAL6gpRyZkfOn81TFoEQjJdL0b1qjInNmHjbWMo6lkE0D&exp=1777399913&osig=AAAAAAAAAAAAAAAAAAAAAJ7qpmTLMM2Fpd6h2ych4gRl6WKcYtteOb8bn9a0BofG&signer=media-rpc&x-canva-quality=screen_2x"
+    ]
+  },
+  {
+    "id": "rimonim-proximo-warsaw",
+    "title": "רימונים פרוקסימו - ורשה פרוסטה",
+    "coordinates": [52.2297, 21.0122],
+    "description": "מלון בוורשה.",
+    "images": []
+  },
+
+  {
+    "id": "majdanek",
+    "title": "מיידנק",
+    "coordinates": [51.2465, 22.5684],
+    "description": "מחנה ריכוז והשמדה.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F99572598-3972-47bd-8ea1-8b81df02d220/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAACxHj5VqO-FpHCnsTRNed9e-DAilGLqkaHGsHOfmxyk-&exp=1777399623&osig=AAAAAAAAAAAAAAAAAAAAAL4PgcGyPaf_j38Ax73PQlAuWIfye89ISHtjudiQzxep&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2F5ddc89f9-c420-4868-a183-a51559eec638/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAABAZa1g8VZhG9w0ykySm6mLmPqkrwuQYuj1vSNAewSJ6&exp=1777399782&osig=AAAAAAAAAAAAAAAAAAAAAF6pm0LOo-w4uEXLqgDtZn9PYnuGH3aCLdd9F-ViGPsk&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1200/quality:92/uri:ifs%3A%2F%2FM%2F3376292c-3509-420a-88fd-715464d1cc58/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAANmA-03ws1KVliucZRfGYpdelzx4_f1KYHcmWe-yxlQB&exp=1777400449&osig=AAAAAAAAAAAAAAAAAAAAAG5tD_YXb4StvB1LFxyUlITN975PUfJdsLsa6zPYE1XO&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F4a7dc4be-17b5-4ac6-aef4-f22ffce97c04/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAJ99WTEagbk-dwTLNhgREYrSLT8nyKHFDCKxtHfAGi6R&exp=1777398269&osig=AAAAAAAAAAAAAAAAAAAAAD1RJGV3K6gnbUWvsvUzJ-VUL19HXYxK1T-7S46-LWlJ&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F29f8e886-d987-4d87-a202-a3d103e4fae3/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAFWm1RNaeNHy16K0qFuDfc2GEzQdl102-8PJVkd3yDh0&exp=1777400538&osig=AAAAAAAAAAAAAAAAAAAAADnkWzHal9EthryfvZ4Sa_QRIxPHWhTJ8-ejKU__pt5M&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:900/quality:92/uri:ifs%3A%2F%2FM%2Fbecf50cb-fde1-4c3a-ad7a-a8daa38b3904/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAALDVofn9Opm8XEHim95vanjQ1_RlIta-Ca7GLV77i-zs&exp=1777398334&osig=AAAAAAAAAAAAAAAAAAAAAJiz2QunIsKrFsDfwtMqVl2oU66ihqhAkqAWoVPrDdvW&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fbb028fbd-c433-4599-8657-ad9166beac0a/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAABKlS3INUrZDG3GdOamFwkWJeb1cLWnJz2JdWHvrQ9p9&exp=1777398288&osig=AAAAAAAAAAAAAAAAAAAAAFO8p_5ZMiaVR80tSiQ2y65Pbr7U4YSsisswes0gfimT&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2Fc6f0f9be-2ae3-441e-bae0-ace0f8d31d64/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAACFZQz1sf6Og6ygBJGNnCjVrkWoKi5nadL7WGFLVzjLc&exp=1777400874&osig=AAAAAAAAAAAAAAAAAAAAAGLXoHLiNtDW3YSXSO2ZAJdHO3fzGhkNMgSLP-EglpOq&signer=media-rpc&x-canva-quality=screen_3x"
+
+    ]
+  },
+  {
+    "id": "yeshivat-chachmei-lublin",
+    "title": "ישיבת חכמי לובלין",
+    "coordinates": [51.2480, 22.5570],
+    "description": "ישיבה יהודית היסטורית.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2F945d4044-4353-447c-9981-a3406a71aa07/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAPtrOGG18NEn6b-SwiTV86Fodd49xLWfUCDkEMQZTlxF&exp=1777397968&osig=AAAAAAAAAAAAAAAAAAAAAMQdk9BS-3BRWA2_Q5wkd5ZQYXVEqFNcRrdCla3LQ2cz&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2Fd893c6bc-b6dd-4924-a968-c8cea6dc1727/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAAwf-XAaT3gU__NAWeU6C3mjS12AhCmZ_MwS5yGOeS7m&exp=1777399817&osig=AAAAAAAAAAAAAAAAAAAAAB9Vg311gIkvezOA5O_vB1dxBiQKHJlx0hpUZSCiC9d2&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2Fe517fc12-f1e0-434d-85ec-f7b5afc7deaa/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAPk-WQj_GUzfeoTy782q8F8m8LT9KFO3stG2_xVPMr4Q&exp=1777400712&osig=AAAAAAAAAAAAAAAAAAAAAG9XDPgmomDYSgx70yd0jql_yZxI4BTpfvfZardRBzEz&signer=media-rpc&x-canva-quality=screen_3x"
+    ]
+  },
+
+  {
+    "id": "kielce-cemetery",
+    "title": "בית קברות קיילצה",
+    "coordinates": [50.8703, 20.6390],
+    "description": "בית קברות יהודי היסטורי.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F02a28c03-e5d1-44ac-ac75-21b5d24de04f/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAAU0ecMLkeTEcO7zvEdj3cBd9qHx5jglxwJfyZ3G5I67&exp=1777399184&osig=AAAAAAAAAAAAAAAAAAAAAAOOJZRctaKRJc2OAzHEw2wH_npY5F2nFpyLmGQFNo1m&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F50eda70f-2bfa-40b7-96b3-a8251de24acf/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAADWYxVE3GM7oNwB_-9V1PAk5TFYevjk8mtmlvusETFYu&exp=1777400682&osig=AAAAAAAAAAAAAAAAAAAAACr_mEf-f5VAM8DnZcLggccODM-lcTvDh5ybSAzy21t4&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2Fdf36cdf6-fac3-43d5-8b2d-89893d66954f/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAM64i4Q3p5XDR505YLtoteEFAWP2cl1yfhqDQOTdpOxU&exp=1777400972&osig=AAAAAAAAAAAAAAAAAAAAANZRHQq1zWgK8oISvLSkd-KfcaewbwrImNiTlR7agw7N&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fdd2e5ca9-d015-4efe-9783-14247d848b56/watermark:F/width:900?csig=AAAAAAAAAAAAAAAAAAAAAB0aIela8K1ayVowkzD9Ug4SPjh9nqXwm2nwyd-3f63y&exp=1777398346&osig=AAAAAAAAAAAAAAAAAAAAAAAqb9-r6q8Zk9qplsDD4h48srhOJurEHBZu97e4y4Af&signer=media-rpc&x-canva-quality=screen_3x"
+    ]
+  },
+  {
+    "id": "zbylitowska-gora",
+    "title": "זביליטובסקה גורה",
+    "coordinates": [50.0400, 20.9000],
+    "description": "אתר רצח המוני.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fdd2e5ca9-d015-4efe-9783-14247d848b56/watermark:F/width:900?csig=AAAAAAAAAAAAAAAAAAAAAB0aIela8K1ayVowkzD9Ug4SPjh9nqXwm2nwyd-3f63y&exp=1777398346&osig=AAAAAAAAAAAAAAAAAAAAAAAqb9-r6q8Zk9qplsDD4h48srhOJurEHBZu97e4y4Af&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2Fab9a8381-2f06-4449-8ee4-c09d959f6d9d/watermark:F/width:1067?csig=AAAAAAAAAAAAAAAAAAAAAKmsXnwl7aAELIx6tQ2NDDc4j6Puw0oW5fvWFlMGaOFD&exp=1777399617&osig=AAAAAAAAAAAAAAAAAAAAAIyzlnYUi_eSVuq3TMuSdwG63VrhmWbSDv9XoFkWVOOf&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1067/quality:92/uri:ifs%3A%2F%2FM%2Fc05b5f3f-8d18-4256-ab7e-dfd0f42282cb/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAALZtebn6XuNtN1gj8SNnRy-BjqSO0CqaGRc-d4c9WV-I&exp=1777397898&osig=AAAAAAAAAAAAAAAAAAAAAEZWHIAOwsra9xupZhMgMBJvWZOk6Dph3WWb9u89b4In&signer=media-rpc&x-canva-quality=screen_3x"
+    ]
+  },
+
+  {
+    "id": "war-heroes-meeting",
+    "title": "שיחה עם חסידי אומות עולם",
+    "coordinates": [52.2297, 21.0122],
+    "description": "מפגש עם מצילי יהודים.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:900/quality:92/uri:ifs%3A%2F%2FM%2F5da7a6e3-2b26-443d-ae40-6c3c890b4d21/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAIn-u2J4MdkxS_D0GpZDSUN2CdaKOvIxGgCh7UQEV99i&exp=1777399337&osig=AAAAAAAAAAAAAAAAAAAAAMl-Rz0MtyEHcIzl0GABYucKAd81EANZv1fohM-FUwjv&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F49165ac8-d987-4c49-97fd-d219724eec79/watermark:F/width:900?csig=AAAAAAAAAAAAAAAAAAAAAPINjQ7o_OfGZpHUoU3Q6NwpjTzS5eFF3RnYa1JBLRDS&exp=1777399378&osig=AAAAAAAAAAAAAAAAAAAAAP-KEyKcg_5VWoeFdMpWM6prJ2On-Q681y8jEtvGFpjv&signer=media-rpc&x-canva-quality=screen_2x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:900/quality:92/uri:ifs%3A%2F%2FM%2F13b01379-8759-4ad1-9fde-92758df61d2f/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAIRD2LZvs2A2Hbd12lsMm-Y02PSSUeOhtZodTqEF07Sx&exp=1777398217&osig=AAAAAAAAAAAAAAAAAAAAAOO9ZYQakx3anQCqsosfDcs6aGPtBaFyRNJgzDxpchh_&signer=media-rpc&x-canva-quality=screen_2x"
+
+    ]
+  },
+  {
+    "id": "iran-attack-symbolic",
+    "title": "מתקפה איראנית ",
+    "coordinates": [31.7683, 35.2137],
+    "description": "נקודת הקשר לישראל. מחכים לטיסה חלופית לישראל.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:JPG/height:600/quality:92/uri:ifs%3A%2F%2FM%2F936e32ba-7a75-421c-be7f-5228054ec45b/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAFeKBtHLz46NDJujJUtTRzsWUqZfjJdpSFT3JVje73Zk&exp=1777398162&osig=AAAAAAAAAAAAAAAAAAAAACJh5nQ8HPuyGCf1o2w1SAqwv8o6kWB_l1-20yOZZUBm&signer=media-rpc&x-canva-quality=screen",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1496/quality:92/uri:ifs%3A%2F%2FM%2Fe4817200-b6c0-487d-9211-b22c58473d71/watermark:F/width:1496?csig=AAAAAAAAAAAAAAAAAAAAAPzih9vHrpzywKjJmLLzgbEA9aNj4hop_8ZUPM4GJcSz&exp=1777400393&osig=AAAAAAAAAAAAAAAAAAAAABZHGfUEDy7AxZs4SFaIxbGcwffPzHsAt94f6T4U_O07&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2Fe81aaedb-8806-4cb6-b839-e1712809af39/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAAdlrvh58W7xxyE12r2H7gOD6pDOKKz0DW-yXI0vdu3C&exp=1777400447&osig=AAAAAAAAAAAAAAAAAAAAAFEAKhwUgegGl7wXqIzZKc9bWp66EWd9F3KmwUwdpWLz&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F1931df27-cae0-4117-bed5-b39ee4e183e0/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAPOowbXQlDuVDOiYN52SvPxgWw1dihbZL32-VjzemZAG&exp=1777400269&osig=AAAAAAAAAAAAAAAAAAAAAPf-iY_-giUlC9ccWTI2SJSVRB7rQ7o2-JoPLiIo6nPC&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1026/quality:92/uri:ifs%3A%2F%2FM%2Fbfa2aaf9-125d-42af-96b6-ae60db6a5383/watermark:F/width:1824?csig=AAAAAAAAAAAAAAAAAAAAAA8Muy3xyPGNjxOd9YfxJPCaXZyGKqVg0ltjL0nznW6j&exp=1777398851&osig=AAAAAAAAAAAAAAAAAAAAAMuFexOQBoC3B60aAiaVXpOcu8wisn2oW_i3iC2p_w_6&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1600/quality:92/uri:ifs%3A%2F%2FM%2F425b2e09-36f6-4505-aa42-8224321879c6/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAK3xFSMlera8N1Pp2ea6dIH6jWphC3uiCRyxVk-Q5s-V&exp=1777400652&osig=AAAAAAAAAAAAAAAAAAAAAJu8SF4SRdszNL4sKMA14ZCEcu-Sfwh1_dNLAlmoZ4zw&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:JPG/height:1200/quality:92/uri:ifs%3A%2F%2FM%2Fc886ea9a-6013-43ac-b67d-a99ec20f2240/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAM9vdTSeHp40BDE6QwquTJU-rMrcnYOzI6atUj1arSqX&exp=1777401026&osig=AAAAAAAAAAAAAAAAAAAAADTXL4Q2xttxtcWbSMh-iGgvuux95u5H5EURiI2H9rxH&signer=media-rpc&x-canva-quality=screen_2x"
+
+    ]
+  },
+
+  {
+    "id": "cairo-airport",
+    "title": "שדה התעופה טאבה - מצרים",
+    "coordinates": [29.4920, 34.8947],
+    "description": "נקודת מעבר בסיום המסע.",
+    "images": [
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2Fe81aaedb-8806-4cb6-b839-e1712809af39/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAAdlrvh58W7xxyE12r2H7gOD6pDOKKz0DW-yXI0vdu3C&exp=1777400447&osig=AAAAAAAAAAAAAAAAAAAAAFEAKhwUgegGl7wXqIzZKc9bWp66EWd9F3KmwUwdpWLz&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2F66f55d26-8a06-4940-8e9e-a7cb11d572c5/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAJ2yG1i-p49U7lM9WyJD9zIZaAq4bm1RD4qfCpluFSJ4&exp=1777397573&osig=AAAAAAAAAAAAAAAAAAAAANBmKEH7CKr4_0I9wztNVbWQjujbw1xqRUKdrt6KZ8Ip&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1200/quality:100/uri:ifs%3A%2F%2FM%2F6d90c1c0-dfd4-4e1e-9a11-d96cae08720f/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAD8jLZ5Neni7Mnyh-iXFNwWBj7B-1tQS8NPBUjsJXuJK&exp=1777399868&osig=AAAAAAAAAAAAAAAAAAAAAAsU2Ylt6rogx-OW14Ld0S-ZDqbZxk94JRldlVGdLMrv&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2Fd5edc0f1-7589-4f6a-8ea5-fe82193937fb/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAOm_bleo8K_6lVBkXr9cwUStakYZBALKjiehG89r7ArL&exp=1777397803&osig=AAAAAAAAAAAAAAAAAAAAANzv_43pjug2GlZv-T0Y9c8bQ4Eq_KzgQUm33vc0Lgez&signer=media-rpc&x-canva-quality=screen_3x",
+      "https://media.canva.com/v2/image-resize/format:PNG/height:1600/quality:100/uri:ifs%3A%2F%2FM%2F3b6a2905-d0f1-4c5b-995e-adbdc4035046/watermark:F/width:1200?csig=AAAAAAAAAAAAAAAAAAAAAJv3JX_nGFjOFJ35jxmoth2lyriIMCGBYcns55VJFT6V&exp=1777397882&osig=AAAAAAAAAAAAAAAAAAAAAMe71TZjgviR9klzruw2WSVlUPSgFiiUDpbz_i4H-iie&signer=media-rpc&x-canva-quality=screen_3x"
     ]
   }
 ]

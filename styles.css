@@ -138,7 +138,6 @@ a {
 
 .hero-chips,
 .hero-actions,
-.prepare-grid,
 .gallery,
 .intro-grid {
   display: grid;
@@ -199,7 +198,8 @@ a {
 .section-heading h2,
 .info-card h2,
 .timeline-item h3,
-.check-card h3 {
+.check-card h3,
+.team-credit h3 {
   margin: 0;
 }
 
@@ -209,13 +209,13 @@ a {
 .panel-note,
 .map-copy p,
 .footer p,
-.check-card li {
+.check-card li,
+.team-credit p {
   color: var(--muted);
   line-height: 1.7;
 }
 
 .intro-grid,
-.prepare-grid,
 .gallery {
   grid-template-columns: 1fr;
 }
@@ -406,11 +406,48 @@ a {
   background: var(--accent);
   border: 3px solid #fff8ef;
   box-shadow: 0 8px 18px rgba(139, 47, 30, 0.3);
+  transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
 }
 
-.map-pin.is-active {
+.leaflet-marker-icon.is-active .map-pin {
   background: var(--forest);
-  transform: scale(1.25);
+  box-shadow: 0 10px 24px rgba(40, 70, 61, 0.45);
+  transform: scale(1.35);
+}
+
+.team-photo-card {
+  overflow: hidden;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+}
+
+.team-photo {
+  width: 100%;
+  aspect-ratio: 16 / 4.8;
+  object-fit: cover;
+  object-position: center 38%;
+}
+
+.team-credits {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.team-credit {
+  padding: 18px;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+}
+
+.team-credit p {
+  margin: 0;
+}
+
+.team-credit p + p {
+  margin-top: 6px;
 }
 
 .check-card ul {
@@ -483,10 +520,6 @@ a {
 
   .intro-grid {
     grid-template-columns: 1.2fr 1fr;
-  }
-
-  .prepare-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .gallery {
