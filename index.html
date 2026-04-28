@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="אתר המשלחת לפולין עם נקודות חשובות, וידאו, מפה אינטראקטיבית ומידע לקראת המסע."
+    >
+    <title>המשלחת לפולין</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .video-frame.video-frame-a4 {
+        max-width: 420px;
+        margin: 0 auto;
+      }
+
+      .video-frame.video-frame-a4 video {
+        width: 100%;
+        aspect-ratio: 210 / 297;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      אזור החלפת תמונות:
+      כדי להחליף תמונה, שנה רק את הקישור בתוך src.
+
+      תמונת פתיח:
+      src="assets/warsaw-old-town.jpg"
+
+      גלריה 1:
+      src="assets/krakow-skyline.jpg"
+
+      גלריה 2:
+      src="assets/birkenau-gate.jpg"
+
+      גלריה 3:
+      src="assets/warsaw-old-town.jpg"
+
+      דוגמה לקישור חיצוני:
+      src="https://example.com/image.jpg"
+    -->
+    <div class="page-shell">
+      <header class="hero" id="top">
+        <nav class="topbar" aria-label="ניווט ראשי">
+          <a class="brand" href="#top">המשלחת לפולין</a>
+          <div class="topbar-links">
+            <a href="#map">מפה</a>
+            <a href="#video">וידאו</a>
+            <a href="#prepare">הכנה</a>
+          </div>
+        </nav>
+
+        <div class="hero-media">
+          <img
+            src="assets/warsaw-old-town.jpg"
+            alt="העיר העתיקה בוורשה"
+            class="hero-image"
+            fetchpriority="high"
+            decoding="async"
+          >
+          <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">מסע זיכרון, למידה וחוויה משותפת</p>
+          <h1>אתר המשלחת לפולין</h1>
+          <p class="hero-text">
+            כל מה שצריך במקום אחד: וידאו פתיחה, מפה עם תמונות, תחנות מרכזיות במסע,
+            תזכורות לפני היציאה ומידע מהיר שזמין במיוחד מהטלפון.
+          </p>
+
+          <div class="hero-chips" aria-label="מידע מהיר">
+            <span>מותאם לנייד</span>
+            <span>מפה אינטראקטיבית</span>
+            <span>גלריה מקומית</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#map">למפה של המסע</a>
+            <a class="button button-secondary" href="#prepare">מה להביא</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section intro-grid">
+          <article class="info-card accent">
+            <p class="card-label">לעריכה מהירה</p>
+            <h2>אזור פתיחה למסר שלך</h2>
+            <p>
+              כאן אפשר להכניס טקסט אישי על המשלחת, מטרות המסע, שמות המלווים, תאריכים,
+              או כל פתיח שתרצה להחליף אחר כך.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <p class="card-label">מה הוספתי</p>
+            <h2>מבנה שימושי למשלחת</h2>
+            <p>
+              עמוד הבית בנוי כך שיהיה קל לגלול, להבין מהר איפה כל דבר נמצא, ולהגיע
+              למפה, לוידאו ולהכנה בלי לחפש.
+            </p>
+          </article>
+        </section>
+
+        <section class="section timeline-section">
+          <div class="section-heading">
+            <p class="section-kicker">מהלך המסע</p>
+            <h2>תחנות מרכזיות</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-index">01</span>
+              <div>
+                <h3>יציאה והתכנסות</h3>
+                <p>מקום מצוין להכניס שעת מפגש, שדה תעופה, מסמכים אחרונים ודגשים ליום הראשון.</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-index">02</span>
+              <div>
+                <h3>ערים ואתרי ביקור</h3>
+                <p>אפשר לעדכן כאן את ורשה, קרקוב, אושוויץ, מיידנק או כל מסלול אחר שתבחר.</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-index">03</span>
+              <div>
+                <h3>עיבוד, שיח וסיכום</h3>
+                <p>מומלץ להשאיר מקום גם לרגעי עיבוד, טקסים, שיחות צוות וזמני סיכום בסוף כל יום.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section media-section" id="video">
+          <div class="section-heading">
+            <p class="section-kicker">וידאו</p>
+            <h2>סרטון פתיחה</h2>
+          </div>
+
+          <div class="video-panel">
+            <div class="video-frame video-frame-a4">
+              <video controls autoplay muted loop playsinline preload="metadata">
+                <source
+                  src="https://videos.viddynest.com/uploads/LxYHbXtoGJ/.mp4"
+                  type="video/mp4"
+                >
+              </video>
+            </div>
+            <p class="panel-note">
+              הווידאו כבר יושב במקום נכון למובייל. אם תרצה, אפשר אחר כך להחליף רק את
+              הקישור בלי לגעת בעיצוב.
+            </p>
+          </div>
+        </section>
+
+        <section class="section map-section" id="map">
+          <div class="section-heading">
+            <p class="section-kicker">מפה ותמונות</p>
+            <h2>מפת המסע</h2>
+          </div>
+
+          <div class="map-copy">
+            <p>
+              כאן יושבת המפה האינטראקטיבית שלך עם התמונות. השארתי אותה כחלק טבעי
+              מהעמוד ובגובה נוח לגלילה מהטלפון.
+            </p>
+          </div>
+
+          <div class="map-embed">
+            <div
+              class="padlet-embed"
+              style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"
+            >
+              <p style="padding:0;margin:0">
+                <iframe
+                  src="https://padlet.com/embed/pg4j74zc19h4tmh2"
+                  frameborder="0"
+                  allow="camera;microphone;geolocation;display-capture;clipboard-write"
+                  style="width:100%;height:608px;display:block;padding:0;margin:0"
+                  title="מפת Padlet של המשלחת"
+                ></iframe>
+              </p>
+              <div style="display:flex;align-items:center;justify-content:end;margin:0;padding:8px 8px 8px 0">
+                <a
+                  href="https://padlet.com?ref=embed"
+                  style="display:flex;align-items:center;gap:5px;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span
+                    aria-hidden="true"
+                    style="color:#9E9E9E;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;line-height:1"
+                  >Made with</span>
+                  <img
+                    src="https://padlet.net/emails/padlet_email_logo_2026_text-dark-200.png"
+                    height="12"
+                    style="padding:0;margin:0;background:0 0;border:none;box-shadow:none;display:block"
+                    alt="Made with Padlet"
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section prepare-section" id="prepare">
+          <div class="section-heading">
+            <p class="section-kicker">לפני היציאה</p>
+            <h2>מה חשוב להכין</h2>
+          </div>
+
+          <div class="prepare-grid">
+            <article class="check-card">
+              <h3>מסמכים</h3>
+              <ul>
+                <li>דרכון בתוקף</li>
+                <li>אישור הורים או מסמכי משלחת לפי הצורך</li>
+                <li>ביטוח ופרטי קשר חשובים</li>
+              </ul>
+            </article>
+
+            <article class="check-card">
+              <h3>ציוד אישי</h3>
+              <ul>
+                <li>ביגוד חם ונוח להליכה</li>
+                <li>מטען, אוזניות וסוללה ניידת</li>
+                <li>בקבוק מים קטן ותיק יום</li>
+              </ul>
+            </article>
+
+            <article class="check-card">
+              <h3>היערכות למסע</h3>
+              <ul>
+                <li>קריאה קצרה על האתרים</li>
+                <li>פתיחות לשיח וללמידה</li>
+                <li>כבוד לזמנים, לטקסים ולקבוצה</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section gallery-section">
+          <div class="section-heading">
+            <p class="section-kicker">השראה למסע</p>
+            <h2>מבט מהמקומות שנפגוש</h2>
+          </div>
+
+          <div class="gallery">
+            <figure class="gallery-card large">
+              <img src="assets/krakow-skyline.jpg" alt="קו הרקיע של קרקוב" decoding="async">
+              <figcaption>קרקוב</figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img src="assets/birkenau-gate.jpg" alt="שער בירקנאו" decoding="async">
+              <figcaption>בירקנאו</figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img src="assets/warsaw-old-town.jpg" alt="העיר העתיקה בוורשה" decoding="async">
+              <figcaption>ורשה</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section quote-section">
+          <blockquote>
+            "המסע לפולין הוא לא רק ביקור במקומות, אלא מפגש עם זיכרון, זהות ואחריות."
+          </blockquote>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>נבנה כך שיהיה קל לעדכן, נוח לגלילה, ומוכן להעלאה כאתר קבצים פשוט.</p>
+        <a href="#top">חזרה לראש העמוד</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
