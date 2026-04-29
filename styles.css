@@ -69,9 +69,47 @@ a {
   border-radius: 999px;
 }
 
+.topbar-start {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .brand {
   font-size: 1rem;
   font-weight: 800;
+}
+
+.share-button {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 250, 244, 0.84);
+  color: var(--forest);
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(39, 25, 12, 0.08);
+}
+
+.share-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.share-toast {
+  position: absolute;
+  top: 72px;
+  right: 14px;
+  z-index: 3;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(29, 28, 27, 0.82);
+  color: #fff8ef;
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
 }
 
 .topbar-links {
@@ -504,6 +542,10 @@ a {
 @media (min-width: 720px) {
   .page-shell {
     padding: 0 18px 40px;
+  }
+
+  .share-toast {
+    right: 18px;
   }
 
   .hero {
