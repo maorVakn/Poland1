@@ -12,6 +12,63 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
+const shareButton = document.getElementById("share-site-button");
+const shareToast = document.getElementById("share-toast");
+
+if (shareButton) {
+  const siteUrl = "https://maorvakn.github.io/Poland1/";
+  const shareText = 'משלחת לפולין 2026 בית ספר ש"י עגנון';
+  const shareMessage = () => `${shareText}: ${siteUrl}`;
+  let toastTimeoutId = null;
+
+  const showToast = (message) => {
+    if (!shareToast) {
+      return;
+    }
+
+    shareToast.textContent = message;
+    shareToast.hidden = false;
+
+    window.clearTimeout(toastTimeoutId);
+    toastTimeoutId = window.setTimeout(() => {
+      shareToast.hidden = true;
+    }, 2200);
+  };
+
+  shareButton.addEventListener("click", async () => {
+    const message = shareMessage();
+    const shareData = {
+      title: "המשלחת לפולין 2026",
+      text: shareText,
+      url: siteUrl
+    };
+
+    if (navigator.share && (!navigator.canShare || navigator.canShare(shareData))) {
+      try {
+        await navigator.share(shareData);
+        return;
+      } catch (error) {
+        if (error && error.name === "AbortError") {
+          return;
+        }
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(message);
+      showToast("הקישור הועתק");
+      return;
+    } catch (_error) {
+      try {
+        window.location.href = `mailto:?subject=${encodeURIComponent(shareData.title)}&body=${encodeURIComponent(message)}`;
+        showToast("נפתחה אפשרות שיתוף");
+      } catch (__error) {
+        showToast("לא הצלחנו לשתף כרגע");
+      }
+    }
+  });
+}
+
 const mapElement = document.getElementById("expedition-map");
 const locationListElement = document.getElementById("location-list");
 
