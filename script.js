@@ -14,6 +14,45 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 
 const mapElement = document.getElementById("expedition-map");
 const locationListElement = document.getElementById("location-list");
+const videoModal = document.getElementById("video-modal");
+const videoModalClose = document.getElementById("video-modal-close");
+const locationVideoPlayer = document.getElementById("location-video-player");
+const videoModalTitle = document.getElementById("video-modal-title");
+
+const closeVideoModal = () => {
+  if (!videoModal || !locationVideoPlayer) {
+    return;
+  }
+
+  locationVideoPlayer.pause();
+  locationVideoPlayer.removeAttribute("src");
+  locationVideoPlayer.load();
+  videoModal.hidden = true;
+};
+
+const openVideoModal = (videoSrc, title) => {
+  if (!videoModal || !locationVideoPlayer || !videoModalTitle) {
+    return;
+  }
+
+  videoModalTitle.textContent = title || "סרטון";
+  locationVideoPlayer.src = videoSrc;
+  videoModal.hidden = false;
+  locationVideoPlayer.play().catch(() => {});
+};
+
+videoModalClose?.addEventListener("click", closeVideoModal);
+videoModal?.addEventListener("click", (event) => {
+  if (event.target instanceof HTMLElement && event.target.hasAttribute("data-close-video-modal")) {
+    closeVideoModal();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && videoModal && !videoModal.hidden) {
+    closeVideoModal();
+  }
+});
 
 if (mapElement && locationListElement && window.L) {
   const map = L.map(mapElement, {
@@ -68,6 +107,33 @@ if (mapElement && locationListElement && window.L) {
     article.id = `place-${place.id}`;
     article.dataset.locationId = place.id;
 
+    const videos = (place.videos || [])
+      .filter((videoUrl) => typeof videoUrl === "string" && videoUrl.trim().length > 0)
+      .slice(0, 2)
+      .map(
+        (videoUrl, index) => `
+          <button
+            class="location-video-trigger"
+            type="button"
+            data-video-src="${videoUrl}"
+            data-video-title="${place.title} - סרטון ${index + 1}"
+            aria-label="פתח סרטון של ${place.title}"
+          >
+            <video muted playsinline preload="metadata">
+              <source src="${videoUrl}" type="video/mp4">
+            </video>
+            <span class="location-video-play" aria-hidden="true">
+              <span>
+                <svg viewBox="0 0 24 24">
+                  <path d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.68L9.54 5.98A1 1 0 0 0 8 6.82Z" fill="currentColor"></path>
+                </svg>
+              </span>
+            </span>
+          </button>
+        `
+      )
+      .join("");
+
     const gallery = (place.images || [])
       .slice(0, 5)
       .map(
@@ -88,12 +154,69 @@ if (mapElement && locationListElement && window.L) {
         <button class="location-card-button" type="button">למיקום במפה</button>
       </div>
       <p>${place.description}</p>
-      <div class="location-gallery">${gallery}</div>
+      <div class="location-gallery">${videos}${gallery}</div>
     `;
 
     article.querySelector(".location-card-button")?.addEventListener("click", () => {
       setActiveLocation(place.id, { center: true, scroll: false });
       mapElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    article.querySelectorAll(".location-video-trigger").forEach((trigger) => {
+      const previewVideo = trigger.querySelector("video");
+      if (previewVideo) {
+        const buildPreview = () => {
+          try {
+            const canvas = document.createElement("canvas");
+            canvas.width = previewVideo.videoWidth;
+            canvas.height = previewVideo.videoHeight;
+
+            const context = canvas.getContext("2d");
+            if (!context || !canvas.width || !canvas.height) {
+              return;
+            }
+
+            context.drawImage(previewVideo, 0, 0, canvas.width, canvas.height);
+            const previewUrl = canvas.toDataURL("image/jpeg", 0.82);
+            trigger.style.setProperty("--video-preview", `url("${previewUrl}")`);
+          } catch (_error) {
+            // Keep the default overlay if the browser blocks frame extraction.
+          }
+        };
+
+        previewVideo.addEventListener(
+          "loadedmetadata",
+          () => {
+            if (previewVideo.duration && Number.isFinite(previewVideo.duration)) {
+              previewVideo.currentTime = Math.min(0.6, Math.max(previewVideo.duration / 12, 0.08));
+            }
+          },
+          { once: true }
+        );
+
+        previewVideo.addEventListener("seeked", () => {
+          buildPreview();
+          previewVideo.pause();
+        });
+
+        previewVideo.load();
+      }
+
+      trigger.addEventListener("click", (event) => {
+        event.stopPropagation();
+        const target = event.currentTarget;
+        if (!(target instanceof HTMLElement)) {
+          return;
+        }
+
+        const videoSrc = target.getAttribute("data-video-src");
+        const videoTitle = target.getAttribute("data-video-title");
+        if (!videoSrc) {
+          return;
+        }
+
+        openVideoModal(videoSrc, videoTitle || place.title);
+      });
     });
 
     article.addEventListener("click", () => {
@@ -200,7 +323,8 @@ if (mapElement && locationListElement && window.L) {
           <p>
             בדוק שקובץ <code>locations.json</code> קיים, ושהוא מכיל מערך של מקומות
             עם <code>id</code>, <code>title</code>, <code>coordinates</code>,
-            <code>description</code> ו-<code>images</code>.
+            <code>description</code>, <code>images</code> ואופציונלית
+            <code>videos</code>.
           </p>
         </article>
       `;
