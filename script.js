@@ -12,6 +12,29 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
   });
 });
 
+const externalLinkNotice = document.getElementById("external-link-notice");
+
+document.querySelectorAll('[data-delayed-external-link="true"]').forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    const href = link.getAttribute("href");
+    if (externalLinkNotice instanceof HTMLElement) {
+      externalLinkNotice.hidden = false;
+    }
+
+    window.setTimeout(() => {
+      if (externalLinkNotice instanceof HTMLElement) {
+        externalLinkNotice.hidden = true;
+      }
+
+      if (href) {
+        window.location.href = href;
+      }
+    }, 4000);
+  });
+});
+
 const mapElement = document.getElementById("expedition-map");
 const locationListElement = document.getElementById("location-list");
 const videoModal = document.getElementById("video-modal");

@@ -284,6 +284,74 @@ a {
   object-fit: cover;
 }
 
+.video-album-link {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.video-album-button {
+  min-width: 220px;
+}
+
+.notice-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.notice-modal[hidden] {
+  display: none;
+}
+
+.notice-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 12, 10, 0.48);
+  backdrop-filter: blur(6px);
+}
+
+.notice-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 320px);
+  padding: 24px 20px;
+  border-radius: 24px;
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.notice-spinner {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto 14px;
+  border-radius: 999px;
+  border: 3px solid rgba(40, 70, 61, 0.16);
+  border-top-color: var(--forest);
+  animation: notice-spin 0.9s linear infinite;
+}
+
+.notice-modal-title {
+  margin: 0 0 8px;
+  font-size: 1.3rem;
+}
+
+.notice-modal-text {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+@keyframes notice-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .map-copy {
   margin-bottom: 14px;
 }
