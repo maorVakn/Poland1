@@ -38,6 +38,7 @@ const openVideoModal = (videoSrc, title) => {
   videoModalTitle.textContent = title || "סרטון";
   locationVideoPlayer.src = videoSrc;
   videoModal.hidden = false;
+  locationVideoPlayer.load();
   locationVideoPlayer.play().catch(() => {});
 };
 
@@ -70,6 +71,34 @@ if (mapElement && locationListElement && window.L) {
   const markers = new Map();
   const cards = new Map();
   let activeId = null;
+  const previewVideoObserver = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        const previewVideo = entry.target;
+        if (!(previewVideo instanceof HTMLVideoElement)) {
+          return;
+        }
+
+        const source = previewVideo.querySelector("source");
+        if (source && !source.src) {
+          const deferredSrc = source.getAttribute("data-src");
+          if (deferredSrc) {
+            source.src = deferredSrc;
+            previewVideo.load();
+          }
+        }
+
+        observer.unobserve(previewVideo);
+      });
+    },
+    {
+      rootMargin: "240px 0px"
+    }
+  );
 
   const setActiveLocation = (id, options = {}) => {
     activeId = id;
@@ -119,8 +148,8 @@ if (mapElement && locationListElement && window.L) {
             data-video-title="${place.title} - סרטון ${index + 1}"
             aria-label="פתח סרטון של ${place.title}"
           >
-            <video muted playsinline preload="metadata">
-              <source src="${videoUrl}" type="video/mp4">
+            <video class="location-video-preview" muted playsinline preload="metadata">
+              <source data-src="${videoUrl}" type="video/mp4">
             </video>
             <span class="location-video-play" aria-hidden="true">
               <span>
@@ -188,7 +217,7 @@ if (mapElement && locationListElement && window.L) {
           "loadedmetadata",
           () => {
             if (previewVideo.duration && Number.isFinite(previewVideo.duration)) {
-              previewVideo.currentTime = Math.min(0.6, Math.max(previewVideo.duration / 12, 0.08));
+              previewVideo.currentTime = Math.min(0.45, Math.max(previewVideo.duration / 18, 0.08));
             }
           },
           { once: true }
@@ -199,7 +228,7 @@ if (mapElement && locationListElement && window.L) {
           previewVideo.pause();
         });
 
-        previewVideo.load();
+        previewVideoObserver.observe(previewVideo);
       }
 
       trigger.addEventListener("click", (event) => {

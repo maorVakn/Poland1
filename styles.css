@@ -434,6 +434,11 @@ a {
   opacity: 0;
 }
 
+.location-video-preview {
+  position: absolute;
+  inset: 0;
+}
+
 .location-video-trigger::after {
   content: "";
   position: absolute;
