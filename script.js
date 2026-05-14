@@ -283,10 +283,10 @@ if (mapElement && locationListElement && window.L) {
     locationListElement.appendChild(article);
   };
 
-  fetch("locations.json")
+  fetch("data/locations.json")
     .then((response) => {
       if (!response.ok) {
-        throw new Error("Failed to load locations.json");
+        throw new Error("Failed to load data/locations.json");
       }
       return response.json();
     })

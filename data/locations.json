@@ -5,10 +5,10 @@
     "coordinates": [32.0114, 34.8867],
     "description": "נקודת היציאה של המסע לפולין.",
     "images": [
-                "p5.jpeg",
-                "p6.jpeg",
-                "p7.jpeg",
-                "p8.jpeg"
+                "data/images/p5.jpeg",
+                "data/images/p6.jpeg",
+                "data/images/p7.jpeg",
+                "data/images/p8.jpeg"
         ]
   },
   {
@@ -17,10 +17,10 @@
     "coordinates": [31.826176971014796, 34.68276063138732],
     "description": "מוזיאון הכנה למסע עם עדויות ותיעוד שואה.",
   "images": [
-      "p1.png",
-      "p2.jpeg",
-      "p3.jpeg",
-      "p4.jpeg"
+      "data/images/p1.png",
+      "data/images/p2.jpeg",
+      "data/images/p3.jpeg",
+      "data/images/p4.jpeg"
     ]  },
   {
     "id": "lodz",
@@ -28,14 +28,14 @@
     "coordinates": [51.7592, 19.4550],
     "description": "עיר עם גטו יהודי והיסטוריה מהשואה.",
     "videos": [
-      "v2.mp4",
-      "v13.mp4"
+      "data/videos/v2.mp4",
+      "data/videos/v13.mp4"
     ],
     "images": [
-        "p9.jpeg",
-        "p10.jpeg",
-        "p11.jpeg",
-        "p12.jpeg"
+        "data/images/p9.jpeg",
+        "data/images/p10.jpeg",
+        "data/images/p11.jpeg",
+        "data/images/p12.jpeg"
     ]
 
   },
@@ -46,9 +46,9 @@
     "coordinates": [52.25163638244515, 20.968756806725796],
     "description": "בית קברות יהודי מרכזי בוורשה.",
 "images": [
-      "p13.jpeg",
-      "p14.jpeg",
-      "p15.jpeg"
+      "data/images/p13.jpeg",
+      "data/images/p14.jpeg",
+      "data/images/p15.jpeg"
     ]  },
   {
     "id": "warsaw-zoo",
@@ -56,13 +56,13 @@
     "coordinates": [52.25812754550017, 21.021576292554922],
     "description": "גן חיות היסטורי בוורשה.",
     "videos": [
-      "v1.mp4"
+      "data/videos/v1.mp4"
     ],
     "images": [
-      "p16.jpeg",
-      "p17.jpeg",
-      "p18.jpeg",
-      "p19.jpeg"
+      "data/images/p16.jpeg",
+      "data/images/p17.jpeg",
+      "data/images/p18.jpeg",
+      "data/images/p19.jpeg"
     ]
   },
   {
@@ -71,14 +71,14 @@
     "coordinates": [52.236221570812525, 21.000959265182395],
     "description": "בית הכנסת הפעיל היחיד שנותר בוורשה לפני השואה.",
     "videos": [
-      "v3.mp4",
-      "v6.mp4"
+      "data/videos/v3.mp4",
+      "data/videos/v6.mp4"
     ],
     "images": [
-      "p20.jpeg",
-      "p21.jpeg",
-      "p22.jpeg",
-      "p23.jpeg"
+      "data/images/p20.jpeg",
+      "data/images/p21.jpeg",
+      "data/images/p22.jpeg",
+      "data/images/p23.jpeg"
     ]
   },
   {
@@ -87,10 +87,10 @@
     "coordinates": [52.23468694490556, 20.977966715677535],
     "description": "מקום פעילותו של יאנוש קורצ’אק עם יתומים יהודים.",
     "images": [
-      "p24.jpeg",
-      "p25.jpeg",
-      "p26.jpeg",
-      "p27.jpeg"
+      "data/images/p24.jpeg",
+      "data/images/p25.jpeg",
+      "data/images/p26.jpeg",
+      "data/images/p27.jpeg"
     ]
   },
   {
@@ -99,9 +99,9 @@
     "coordinates": [52.24984960349242, 20.994300997097103],
     "description": "אנדרטה לזכר גיבורי גטו ורשה.",
     "images": [
-      "p28.jpeg",
-      "p29.jpeg",
-      "p30.jpeg"
+      "data/images/p28.jpeg",
+      "data/images/p29.jpeg",
+      "data/images/p30.jpeg"
     ]
   },
   {
@@ -110,9 +110,9 @@
     "coordinates": [52.25156284699861, 20.992347939977385],
     "description": "בונקר הנהגת מרד גטו ורשה.",
     "images": [
-      "p31.jpeg",
-      "p32.jpeg",
-      "p33.jpeg"
+      "data/images/p31.jpeg",
+      "data/images/p32.jpeg",
+      "data/images/p33.jpeg"
     ]
   },
   {
@@ -121,15 +121,15 @@
     "coordinates": [52.2298092497788, 21.011164995625897],
     "description": "אירוע תרבותי של פולקלור פולני.",
     "videos": [
-      "v4.mp4",
-      "v5.mp4",
-      "v7.mp4",
-      "v8.mp4"
+      "data/videos/v4.mp4",
+      "data/videos/v5.mp4",
+      "data/videos/v7.mp4",
+      "data/videos/v8.mp4"
     ],
     "images": [
-      "p34.jpeg",
-      "p35.png",
-      "p36.jpeg"
+      "data/images/p34.jpeg",
+      "data/images/p35.png",
+      "data/images/p36.jpeg"
     ]
   },
 
@@ -139,7 +139,7 @@
     "coordinates": [53.20771288149563, 22.773947253076564],
     "description": "כיכר מרכזית בעיירה היסטורית.",
     "images": [
-      "p37.png"
+      "data/images/p37.png"
   ]
   },
   {
@@ -148,9 +148,9 @@
     "coordinates": [53.20677290230329, 22.767222438538077],
     "description": "בית כנסת עתיק ומשומר.",
     "images": [
-      "p38.jpeg",
-      "p39.jpeg",
-      "p40.jpeg"
+      "data/images/p38.jpeg",
+      "data/images/p39.jpeg",
+      "data/images/p40.jpeg"
     ]
   },
   {
@@ -159,16 +159,16 @@
     "coordinates": [53.2200, 22.8000],
     "description": "אתר רצח המוני מתקופת השואה.",
     "videos": [
-      "v9.mp4",
-      "v10.mp4"
+      "data/videos/v9.mp4",
+      "data/videos/v10.mp4"
     ],
     "images": [
-      "p41.jpeg",
-      "p42.jpeg",
-      "p43.jpeg",
-      "p44.jpeg",
-      "p51.jpeg",
-      "p52.jpeg"
+      "data/images/p41.jpeg",
+      "data/images/p42.jpeg",
+      "data/images/p43.jpeg",
+      "data/images/p44.jpeg",
+      "data/images/p51.jpeg",
+      "data/images/p52.jpeg"
     ]
   },
   {
@@ -177,15 +177,15 @@
     "coordinates": [52.66315544941035, 22.023983789338516],
     "description": "מחנה השמדה נאצי.",
     "videos": [
-      "v11.mp4"
+      "data/videos/v11.mp4"
     ],
     "images": [
-      "p45.jpeg",
-      "p46.jpeg",
-      "p47.jpeg",
-      "p48.jpeg",
-      "p49.jpeg",
-      "p50.jpeg"
+      "data/images/p45.jpeg",
+      "data/images/p46.jpeg",
+      "data/images/p47.jpeg",
+      "data/images/p48.jpeg",
+      "data/images/p49.jpeg",
+      "data/images/p50.jpeg"
     ]
   },
   {
@@ -194,7 +194,7 @@
     "coordinates": [50.06484577705901, 19.943806495093],
     "description": "טקס קידוש במלון.",
     "videos": [
-      "v20.mp4"
+      "data/videos/v20.mp4"
     ]
   },
   {
@@ -211,20 +211,20 @@
     "coordinates": [51.22534899864709, 22.606273076625573],
     "description": "מחנה ריכוז והשמדה.",
     "videos": [
-      "v12.mp4",
-      "v15.mp4"
+      "data/videos/v12.mp4",
+      "data/videos/v15.mp4"
     ],
     "images": [
-      "p53.jpeg",
-      "p54.jpeg",
-      "p55.jpeg",
-      "p56.jpeg",
-      "p57.jpeg",
-      "p58.jpeg",
-      "p59.jpeg",
-      "p60.jpeg",
-      "p61.png",
-      "p62.png"
+      "data/images/p53.jpeg",
+      "data/images/p54.jpeg",
+      "data/images/p55.jpeg",
+      "data/images/p56.jpeg",
+      "data/images/p57.jpeg",
+      "data/images/p58.jpeg",
+      "data/images/p59.jpeg",
+      "data/images/p60.jpeg",
+      "data/images/p61.png",
+      "data/images/p62.png"
     ]
   },
   {
@@ -233,12 +233,12 @@
     "coordinates": [51.257656697817296, 22.572905908330828],
     "description": "ישיבה יהודית היסטורית.",
     "videos": [
-      "v14.mp4"
+      "data/videos/v14.mp4"
     ],
     "images": [
-      "p63.png",
-      "p64.png",
-      "p65.png"
+      "data/images/p63.png",
+      "data/images/p64.png",
+      "data/images/p65.png"
     ]
   },
 
@@ -248,9 +248,9 @@
     "coordinates": [50.8703, 20.6390],
     "description": "בית קברות יהודי היסטורי.",
     "images": [
-      "p66.jpeg",
-      "p67.jpeg",
-      "p68.jpeg"
+      "data/images/p66.jpeg",
+      "data/images/p67.jpeg",
+      "data/images/p68.jpeg"
    ]
   },
   {
@@ -259,9 +259,9 @@
     "coordinates": [50.0400, 20.9000],
     "description": "אתר רצח המוני.",
     "images": [
-      "p69.jpeg",
-      "p70.jpeg",
-      "p71.jpeg"
+      "data/images/p69.jpeg",
+      "data/images/p70.jpeg",
+      "data/images/p71.jpeg"
    ]
   },
   {
@@ -270,8 +270,8 @@
   "coordinates": [50.0400, 20.9000],
   "description": "היום הגענו לזביליטובסקה גורה יער יפה. שקט. כמעט תמים.\nואז מישהו לחש לי זה \"יער הילדים”.\nומאותו רגע… הכול השתנה. אני הולכת, ולא מצליחה לנשום רגיל. יש כאן שקט, אבל זה לא שקט.\nזה שקט שמרגיש כמו צרחה שלא יצאה מעולם.\nכאילו האדמה עצמה מנסה לספר… ולא מצליחה.\nאני מנסה לדמיין ילדה אחת. רק אחת.\nעם צמות. או שיער פזור. שאולי החזיקה את ידה של אמא. שאולי לחשה לה “אל תעזבי אותי”.\nואז אני נעצרת. כי אני מבינה שהיא לא קיבלה תשובה.\nהמקום הזה הפך לאכזריות ולרוע.\nסיפרו לנו שהגרמנים כפו על הפולנים המקומיים לחפור בורות ענקיים בתוך היער, ובמשך מספר לילות הובלו לשם יהודים, נשים, גברים וילדים.\nפשוט ירו בהם על שפת הבור והשליכו אותם אל תוך הקברים.\n3 קברים של יהודים, 3 של פולנים, וקבר נוסף בו קבורים 800 ילדים.\nחלקם הושלכו לבור בעודם בחיים וכוסו בבטון ומלט.\nכדי שלא ישמע קול, כדי שלא ישאר זכר.\nואז אני שואלת את עצמי.\nאבל איך אפשר שלא יישאר כלום?\nאיך אפשר למחוק ילד?\nאין תשובה. רק שקט.\nאין כאן שמות. ואין מצבות.\nרק בור אחד גדול שזוכר ובתוכו עולם שלם.\nעולם שלם של חיים שלמים של ילדים, הילדים האלה לא הספיקו לגדול.\nלא הספיקו לחלום, לצחוק, לצבור חוויות, לחיות.\nהם לא הספיקו להיות תלמידים, להתחתן, להקים משפחה, להיות הורים, דודים, סבים.\nואני עומדת כאן וחושבת כמה עולם שלם נעלם כאן בשקט. בלי פרידה. בלי הסבר. בלי הזדמנות אחרונה.\nואני עומדת כאן עוד רגע לא זזה.\nמרגישה שאם אני אלך עכשיו אני משאירה אותם לבד שוב.\nואז אני מבינה, אני לא יכולה להחזיר אותם.\nאבל אני כן יכולה לזכור.\nלזכור עד הסוף. לספר.\nלא לתת לשקט הזה לנצח גם אותי.\nואני מבטיחה, בשקט שלי, שכל עוד אני חיה, הם לא ייעלמו באמת. כי מי שנזכר עדיין קיים.\nואני עוזבת את היער הזה,\nאבל הוא לא עוזב אותי.\nלעולם לא אשכח את הילדים, לעולם לא אמחק את שמם, את חלומותיהם ואת חייהם הקצרים.\nיהי זכרם ברוך של כל ילדי היער ולעולם לא נשכח.",
   "images": [
-    "p72.jpeg",
-    "p73.jpeg"
+    "data/images/p72.jpeg",
+    "data/images/p73.jpeg"
   ]
   },
   {
@@ -281,9 +281,9 @@
     "description": "מפגש עם מצילי יהודים.",
     "images": 
     [
-      "p74.jpeg",
-      "p75.jpeg",
-      "p76.jpeg"
+      "data/images/p74.jpeg",
+      "data/images/p75.jpeg",
+      "data/images/p76.jpeg"
     ]
   },
   {
@@ -292,21 +292,21 @@
     "coordinates": [31.7683, 35.2137],
     "description": "נקודת הקשר לישראל. מחכים לטיסה חלופית לישראל.",
     "videos": [
-      "v17.mp4",
-      "v18.mp4",
-      "v19.mp4"
+      "data/videos/v17.mp4",
+      "data/videos/v18.mp4",
+      "data/videos/v19.mp4"
     ],
     "images": [
-      "p77.jpeg",
-      "p78.jpeg",
-      "p79.png",
-      "p80.jpeg",
-      "p81.jpeg",
-      "p82.jpeg",
-      "p83.jpeg",
-      "p84.jpeg",
-      "p85.jpeg",
-      "p86.jpeg"
+      "data/images/p77.jpeg",
+      "data/images/p78.jpeg",
+      "data/images/p79.png",
+      "data/images/p80.jpeg",
+      "data/images/p81.jpeg",
+      "data/images/p82.jpeg",
+      "data/images/p83.jpeg",
+      "data/images/p84.jpeg",
+      "data/images/p85.jpeg",
+      "data/images/p86.jpeg"
     ]
   },
 
@@ -316,14 +316,14 @@
     "coordinates": [29.4920, 34.8947],
     "description": "נקודת מעבר בסיום המסע.",
     "videos": [
-      "v16.mp4"
+      "data/videos/v16.mp4"
     ],
     "images": [
-      "p87.png",
-      "p88.png",
-      "p89.png",
-      "p90.png",
-      "p91.png"
+      "data/images/p87.png",
+      "data/images/p88.png",
+      "data/images/p89.png",
+      "data/images/p90.png",
+      "data/images/p91.png"
     ]
   }
 ]
