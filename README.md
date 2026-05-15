@@ -11,6 +11,12 @@ This project was created entirely on a volunteer basis, out of a desire to honor
 
 The project is built as a simple, accessible static website, without a content management system.
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+
 - **HTML** - page structure, content sections, main video area, map, and galleries.
 - **CSS** - responsive design, mobile support, content sections, cards, and modals.
 - **JavaScript** - data loading, dynamic location cards, map interactions, video modals, and user experience behavior.
@@ -24,11 +30,24 @@ The project is built as a simple, accessible static website, without a content m
 ├── index.html
 ├── styles.css
 ├── script.js
+├── screenshots
+│   ├── map.png
+│   └── mobile-map.png
 └── data
     ├── locations.json
     ├── images
     └── videos
 ```
+
+## Screenshots
+
+### Desktop Map View
+
+![Desktop map view](screenshots/map.png)
+
+### Mobile Map View
+
+![Mobile map view](screenshots/mobile-map.png)
 
 ## Website Content
 
